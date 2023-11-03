@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+/*TOP SECTION*/
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 25px;
+}
+.top-section .again-button{
+    font-size: 2em;
+    padding: 5px;
+    background-color: white;
+}
+.top-section p{
+    font-size: 1.5em;
+}
+/*MIDDLE SECTION*/
+.middle-section{
+    text-align: center;
+}
+.middle-section :first-child{
+    font-size: 5em;
+}
+.middle-section :last-child{
+    width: 1.5em;
+    margin-top: 25px;
+    font-size: 5em;
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+/*BOTTOM SECTION*/
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 35px;
+}
+.bottom-section .left{
+    text-align: center;
+}
+.bottom-section .left input{
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    border: 2px solid white;
+    height: 2em;
+    width: 8em;
+}
+.bottom-section .left button{
+    font-size: 2em;
+    padding: 5px;
+    background-color: white;
+    margin-top: 25px;
+}
+.bottom-section .right h2{
+    font-size: 2em;
+}
